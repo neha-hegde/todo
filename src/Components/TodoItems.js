@@ -2,7 +2,7 @@ import React from "react";
 
 const TodoItems = () => {
     return (
-        <div>
+        <div className="todo-item">
             <input type="checkbox" />
             <span>Todo Item</span><br />
         </div>

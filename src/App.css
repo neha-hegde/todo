@@ -1,11 +1,30 @@
-.header{
-    background-color: rgb(7, 190, 129);
+body{
+    background-color: whitesmoke;
 }
 
-.checklist{
-    margin-left: 500px;
-    margin-right: 500px;
-    background-color: aquamarine;
-    font-family:sans-serif;
-    font-weight:200;
+.header{
+    background-color: grey;
+    color: ivory;
+}
+
+.todo-list{
+    background-color:ivory;
+    width: 50%;
+    margin:auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0 1px 1px 1px grey;
+}
+
+.todo-item{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgb(99, 95, 95);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px;    
 }

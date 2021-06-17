@@ -6,10 +6,12 @@ const App = () => {
   return (
     <div>
       <h1 className="tc header">TODO LIST</h1>  
-      <TodoItems />
-      <TodoItems />
-      <TodoItems />
-      <TodoItems />
+      <div className="todo-list">
+        <TodoItems />
+        <TodoItems />
+        <TodoItems />
+        <TodoItems />
+      </div>
     </div>
   );
 }
