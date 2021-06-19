@@ -4,7 +4,7 @@ const TodoItems = (props) => {
     const {text,completed} = props.todo;
     return (
         <div className="todo-item">
-            <input onChange={()=>{alert("Changed")}} type="checkbox" checked={completed} />
+            <input onChange={()=>props.handleChange(props.todo.id)} type="checkbox" checked={completed} />
             <span>{text}</span><br />
         </div>
     );
